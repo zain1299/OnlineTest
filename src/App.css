@@ -1,0 +1,32 @@
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-width: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.pagination li.active {
+    background-color: #ccc;
+    color: white;
+}
